@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Your Way to a Better Education</title>
+    <link href="buyagrade.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Buy Your Way to a Better Education</h1>
+
+		<p>
+			The rough economy, along with recent changes in University of Washington policy, now allow us to offer grades for money. That's right! All you need to get a 4.0 in this course is cold, hard, cash. <br/>
+
+		</p>
+		
+		
+		<hr />
+		
+		<h2>Give Us Your Money</h2>
+		<form action="sucker.php" method="post">
+            <dl>
+                <dt>Name</dt>
+                <dd>
+                    <input name="name" type="text">
+                </dd>
+                
+                <dt>Section</dt>
+                <dd>
+                    <select name="selection">
+                        <option value="" disabled selected>(Select your option)</option>
+                        <option value="MA">MA</option>
+                        <option value="MB">MB</option>
+                        <option value="MC">MC</option>
+                        <option value="MD">MD</option>
+                        <option value="ME">ME</option>
+                        <option value="MF">MF</option>
+                        <option value="MG">MG</option>
+                        <option value="MH">MH</option>
+                    </select>
+                </dd>
+                
+                <dt>Credit Card</dt>
+                <dd>
+                    <input name="card_number" type="number">
+                    <br>
+                    <table>
+                        <tr>
+                            <td>Visa <input type="radio" name="card_type" value="visa"></td>
+                            <td>MasterCard <input type="radio" name="card_type" value="mastercard"></td>
+                            <td>Discover <input type="radio" name="card_type" value="discover"></td>
+                        </tr>
+                    </table>
+                    
+                </dd>
+            </dl>
+            
+            <div>
+               <input type="submit" name="submit" value="I am a gaint sucker.">
+            </div>
+        </form>
+    
+</body>
+</html>
