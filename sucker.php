@@ -25,9 +25,6 @@
     <link href="buyagrade.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <?php 
-       
-    ?>
 		<h1>Thanks, sucker!</h1>
 
 		<p>Your information has been recorded.</p>
